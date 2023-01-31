@@ -1,25 +1,33 @@
 .Notifications {
-  padding: 1em;
-  border: 2px dashed red;
-  position: absolute;
-  top: 1.8em;
-  right: 0;
+    border: 2px dashed red;
+    padding: 5px;
+    width: 30%;
+    position: fixed;
+    right: 0;
+    top: 4%;
+    margin-right: 10px;
 }
 
-.notification-header {
-  display: flex;
-  justify-content: space-between;
+.Notifications p {
+    margin: 0;
+    width: 100%
+}
+
+.Notifications ul {
+    margin: 1px
 }
 
 .menuItem {
-  text-align: right;
+    position: fixed;
+    right: 0;
+    padding-right: 10px;
 }
 
-[data-notification-type="default"] {
-  color: blue;
+[data-notification-type="default"]{
+    color: darkblue;
 }
 
-[data-urgent],
-[data-notification-type="urgent"] {
-  color: red;
+[data-notification-type="urgent"]{
+    color: red;
 }
+

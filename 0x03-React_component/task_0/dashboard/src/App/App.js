@@ -56,3 +56,4 @@ class App extends React.Component {
 // App.defaultProps = {isLoggedIn: false}
 
 export default App;
+
